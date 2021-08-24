@@ -1,0 +1,71 @@
+.header
+  background-color: #fff
+  &-top
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding-top: 40px
+    padding-bottom: 40px
+  &__search
+    margin-right: auto
+    margin-left: 108px
+  &-menu
+    background-color: $main-color
+    &__list
+      list-style-type: none
+      padding-left: 0
+      margin: 0
+      display: flex
+      justify-content: space-between
+      padding-top: 31px
+      padding-bottom: 31px
+    &__link
+      font-size: 14px
+      line-height: 18px
+      color: #fff
+      text-decoration: none
+      text-transform: uppercase
+
+.logo
+  width: 177px
+
+.search
+  display: flex
+  position: relative
+  overflow: hidden
+  border-radius: 6px
+  height: 40px
+  &__input
+    font-size: 12px
+    line-height: 15px
+    width: 350px
+    height: 100%
+    background-color: #F5FAFE
+    border: none
+    outline: none
+    padding-left: 23px
+    padding-right: 75px
+    color: #333
+    &::placeholder
+      color: #333
+  &__button
+    height: 100%
+    position: absolute
+    top: 0
+    right: 0
+    border: none
+    background-color: $btn-color
+    outline: none
+    width: 65px
+    height: 100%
+.user
+  display: flex
+  align-items: center
+  &__name
+    margin-left: 18px
+    color: $text-color
+  &__avatar
+    border-radius: 50%
+    width: 40px
+    height: 40px
+    object-fit: cover
